@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV BIND_USER=bind \
     BIND_VERSION=1:910.3 \
     WEBMIN_VERSION=1.881 \
-    DATA_DIR=/data
+    DATA_DIR=/data \
 	GPG_KEY=http://www.webmin.com/jcameron-key.asc
 	#GPG_KEY=https://gist.githubusercontent.com/enoch85/092c8f4c4f5127b99d40/raw/186333393163b7e0d50c8d3b25cae4d63ac78b22/jcameron-key.asc
 
