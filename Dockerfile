@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 ENV BIND_USER=bind \
     BIND_VERSION=1:910.3 \
-    WEBMIN_VERSION=1.880 \
+    WEBMIN_VERSION=1.881 \
     DATA_DIR=/data
 
 RUN rm -rf /etc/apt/apt.conf.d/docker-gzip-indexes
